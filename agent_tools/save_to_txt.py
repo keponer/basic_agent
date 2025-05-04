@@ -3,7 +3,7 @@ from datetime import datetime
 from langchain_core.tools import Tool
 
 
-def save_to_txt(data: str, filename: str = "reserch.txt"):
+def save_to_txt(data: str, filename: str = "research.txt"):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     formatted_test = f"--- Research Output ---\n{timestamp}\n\n{data}\n\n"
 
